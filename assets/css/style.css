@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
 :root {
     --blue: hsl(223, 87%, 63%);
     --paleBlue: hsl(223, 100%, 88%);
@@ -123,4 +124,9 @@ footer h4 {
     color: var(--gray);
     font-weight: lighter;
     margin-bottom: 5vh;
+}
+
+#input-email:focus {
+    box-shadow: 0, 0, 0, 0;
+    outline: 0;
 }

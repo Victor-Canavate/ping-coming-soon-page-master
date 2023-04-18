@@ -1,0 +1,154 @@
+@media screen and (min-width: 375px) {
+    #dashboard-img {
+        width: 350px;
+        height: 250px;
+        text-align: center;
+        margin: 0 auto;
+        padding: 25px;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    #dashboard-img {
+        width: 400px;
+        height: 250px;
+        text-align: center;
+        margin: 0 auto;
+        padding: 25px;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .subscribe form {
+        display: flex;
+        flex-direction: row;
+        width: 80vw;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+    }
+
+    #button-submit {
+        border-radius: 20px;
+        width: 30%;
+        font-size: 15px;
+        color: white;
+        background-color: var(--blue);
+        border: none;
+        padding: 0px;
+        height: 7vh;
+        margin-left: 10px;
+    }
+
+    #input-email {
+        border: 1.5px solid var(--paleBlue);
+        padding: 12px 5px;
+        border-radius: 20px;
+        width: 50%;
+        margin-bottom: 2vh
+    }
+
+    #dashboard-img {
+        display: flex;
+        width: 70vw;
+        height: 50vh;
+        text-align: center;
+        margin: 0 auto;
+        padding: 25px;
+        justify-content: center;
+    }
+
+    .social-media {
+        display: flex;
+        justify-content: space-between;
+        width: 30vh;
+        text-align: center;
+        margin-bottom: 5vh;
+    }
+
+    .fa-brands {
+        color: var(--blue);
+        border-radius: 100%;
+        border: 2px solid var(--paleBlue);
+        padding: 10px 10px;
+        text-align: center;
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .subscribe form {
+        display: flex;
+        flex-direction: row;
+        width: 80vw;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        margin-bottom: 10vh;
+    }
+
+    
+    #dashboard-img {
+        display: flex;
+        width: 58vw;
+        height: 55vh;
+        text-align: center;
+        margin: 0 auto;
+        padding: 25px;
+        justify-content: center;
+    }
+
+    .social-media {
+        display: flex;
+        justify-content: space-between;
+        width: 15vw;
+        text-align: center;
+        margin-bottom: 5vh;
+        margin-top: 5vh;
+    }
+
+
+    .fa-brands:hover, #button-submit:hover {
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .subscribe form {
+        display: flex;
+        flex-direction: row;
+        width: 80vw;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        margin-bottom: 10vh;
+    }
+    
+    #button-submit {
+        border: 1.5px solid var(--paleBlue);
+        padding: 0.5px 5px;
+        border-radius: 25px;
+        width: 15vw;
+        margin-bottom: 2vh
+    }
+
+    #input-email {
+        border: 1.5px solid var(--paleBlue);
+        padding: 0.5px 5px;
+        border-radius: 25px;
+        width: 25vw;
+        margin-bottom: 2vh;
+    }
+
+    #launching {
+        font-weight: lighter;
+        color: var(--gray);
+        font-size: 40px;
+    }
+
+    #soon {
+        font-size: 40px;
+    }
+}
