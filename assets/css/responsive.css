@@ -38,7 +38,7 @@
         background-color: var(--blue);
         border: none;
         padding: 0px;
-        height: 7vh;
+        height: 50px;
         margin-left: 10px;
     }
 
@@ -47,7 +47,7 @@
         padding: 12px 5px;
         border-radius: 20px;
         width: 50%;
-        margin-bottom: 2vh
+        margin-bottom: 0;
     }
 
     #dashboard-img {
@@ -150,5 +150,9 @@
 
     #soon {
         font-size: 40px;
+    }
+
+    .mensagem-vazia {
+        margin-left: 5px;
     }
 }

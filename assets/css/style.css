@@ -59,14 +59,37 @@
     align-items: center;
     text-align: center;
     margin-top: 5vh;
+}   
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 #input-email {
     border: 1.5px solid var(--paleBlue);
-    padding: 12px 5px;
     border-radius: 20px;
     width: 95%;
-    margin-bottom: 2vh
+    height: 50px;
+    margin-bottom: 2vh;
+}
+
+.mensagem-vazia {
+    color: red;
+    font-size: 10px;
+    margin-bottom: 2vh;
+    
+}
+
+.desaparece {
+    display: none;
+}
+
+.aparece {
+    display: flex;
 }
 
 #input-email::placeholder {
