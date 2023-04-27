@@ -87,6 +87,12 @@
         align-content: center;
         text-align: center;
         margin-bottom: 10vh;
+        margin-top: 3vh
+    }
+
+    #input-email {
+        width: 35vw;
+        margin: 0;
     }
 
     
